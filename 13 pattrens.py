@@ -6,6 +6,18 @@ for ch in s:
     count=count+1
     
 print (count)
+
+
+x=int(input("Enter any no.= "))
+s=str(x)
+count=0
+
+for ch in s:
+    count=count+1
+    
+print (count)
+
+
 if(count==1):
         print("ITS ONCE DIGIT ")
 elif(count==2):

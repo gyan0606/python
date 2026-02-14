@@ -1,8 +1,14 @@
-a=int(input("no. 1 = ")) #200
-b=int(input("no. 2 = ")) #100
+n=int(input("enter the number"))
+s=len(str(n))
+temp = n
+r=0
 
-a=a+b
-b=a-b
-a=a-b
+for i in range(s):
+     q = n % 10
+     r = r * 10 + q
+     n = n // 10
 
-print("a =",a,"b =" ,b)
+if(temp==r):
+        print("palindrome number")
+else:
+        print("not a palindrome number")

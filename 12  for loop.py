@@ -125,17 +125,18 @@ print("your factorial number is ",num,"=",factorial)
 # palindrome check for loop 
 
 n=int(input("enter the number"))
+s=len(str(n))
 temp = n
 r=0
 
-for i in range (1):
-    q = n % 10
-    r = r * 10 + q
-    n = n // 10
+for i in range(s):
+     q = n % 10
+     r = r * 10 + q
+     n = n // 10
 
-    if(temp==r):
+if(temp==r):
         print("palindrome number")
-    else:
+else:
         print("not a palindrome number")
    
 
