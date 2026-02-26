@@ -23,13 +23,13 @@ c=20.12
 print(type(c))
 
 
-name1="Sumit"
-name2="Stupid"
+name1="234"
+name2="20"
 
 print(name1+" "+name2)
 
 
-num1=100
+num1=500
 num2=300
 sum=num1+num2
 print("Addition of 2 number is: ",sum) 

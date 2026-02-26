@@ -51,20 +51,3 @@ print("Total Amount = ₹", total)
 print("Thank You! Visit Again  ")
 
 print("\n enter the quantity (if 0 the item in not) ")
-
-
-
-# LMS SYSTEM 
- 
-a=int(input("ener the roll. no (100 to 120)"))
-if(a>=100 and a<=120):
-       print("your roll no is correct")
-else:
-       print("invalid roll no")
-
-b=int(input("please select your department "))
-print("1. mechanical")
-print("2. electronics & communication ")
-print("3. computer science")
-print("4. civil")
-print("5. chemical")

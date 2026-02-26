@@ -15,7 +15,7 @@ for i in range(1, 51):
 
 for i in range(1, 11):
     x = 5 * i
-    print("5 *", i, "=", x)
+    print("5 x", i, "=", x)
 
 #printing numbers 1 to 'n'
 
@@ -120,6 +120,7 @@ num=int(input("enter any number: = "))
 factorial=1
 for i in range(1, num + 1):
     factorial=factorial*i
+    i=i+1
 print("your factorial number is ",num,"=",factorial)
 
 # palindrome check for loop 
@@ -139,66 +140,7 @@ if(temp==r):
 else:
         print("not a palindrome number")
    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
+ 
 # palindrome check while loop 
 
 n = int(input("enter the number: "))
@@ -246,3 +188,18 @@ year=int(input("enter the year"))
 month=int(input("enter the month"))
 
 print("\n", calendar.month(year,month))
+
+# armstrong number
+
+a=int(input("enter the armstrong number number :"))
+temp=a 
+s=0
+while(a>0):	
+        r=a%10
+        s=s+(r*r*r); 
+        a=a//10 
+if(s==temp):
+	    print("it is the Armstrong number\n")	
+else:
+        print("It is not an Armstrong number\n")
+      

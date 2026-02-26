@@ -1,14 +1,7 @@
-n=int(input("enter the number"))
-s=len(str(n))
-temp = n
-r=0
-
-for i in range(s):
-     q = n % 10
-     r = r * 10 + q
-     n = n // 10
-
-if(temp==r):
-        print("palindrome number")
-else:
-        print("not a palindrome number")
+def factorial(num):
+    a=int(input("enter the number : "))
+    fact=1
+    for i in range(1,a+1):
+        fact*=i
+        i+=1
+        print("your factorial number is ",num)
